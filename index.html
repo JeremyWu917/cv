@@ -1,0 +1,833 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>吴增杰的个人主页</title>
+  <!-- Stylesheets -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/favicon.ico" type="image/x-icon">
+  <!-- Responsive -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+  <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+  <div class="page-wrapper default-version">
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+    <div class="page-background">
+      <div class="image-1"><img src="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/icon-1.png" alt=""></div>
+      <div class="image-7"><img src="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/icon-7.png" alt=""></div>
+      <canvas id="canvas"></canvas>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+      <div class="container">
+        <!--Nav Outer-->
+        <div class="nav-outer clearfix">
+          <div class="logo"><a href="index.html"><img class="logo-img" src="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/logo.png" alt=""></a></div>
+          <!-- Main Menu -->
+          <nav class="main-menu">
+            <div class="navbar-header">
+              <!-- Toggle Button -->
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <div class="navbar-collapse collapse scroll-nav clearfix">
+              <ul class="navigation clearfix">
+                <li class="current"><a href="#home">主页</a></li>
+                <li><a href="#about">个人信息</a></li>
+                <li><a href="#tools">擅长技术</a></li>
+                <li><a href="#resume">工作经历</a></li>
+                <li><a href="#services">项目经验</a></li>
+                <li><a href="#work">开源项目</a></li>
+                <li><a href="#honor">荣誉证书</a></li>
+                <li><a href="#blog">博客文章</a></li>
+              </ul>
+            </div>
+          </nav>
+          <!-- Main Menu End-->
+        </div>
+        <!--Nav Outer End-->
+      </div>
+    </div>
+
+    <div class="card-outer">
+      <div class="scroll-box">
+        <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+          <div class="card-wrapper">
+            <div class="author-info" style="background:url(https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/3.jpg) no-repeat top center">
+              <div class="image"><img src="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/user.jpeg" alt=""></div>
+              <div class="author">
+                <h3>吴增杰</h3>
+                <div class="designation">
+                  你好，我是
+                  <div class="typing-title">
+                    <p>一名<strong> 全栈工程师</strong></p>
+                    <p>一名<strong> 技术追求者</strong></p>
+                    <p>一名<strong> 运动爱好者</strong></p>
+                    <p>一名<strong> 开源爱好者</strong></p>
+                  </div>
+                  <span class="typed-title"></span>
+                </div>
+              </div>
+              <div class="link-btn">
+                <a href="#" class="theme-btn btn-style-one">下载简历</a>
+              </div>
+              <ul class="social-icon-two">
+                <li><a href="https://github.com/jeremywu917" target="_blank"><span class="fa fa-github"></span></a></li>
+                <li><a class="wx-icon-a" href="#"><span class="fa fa-weixin"></span></a>
+                  <div class="wx-icon" style="display:none; width: 80px; height: 80px; position: absolute; right: -20px;"><img
+                      src="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/wechat.png" style="height: 100%; width: 100%;" alt=""></div>
+                </li>
+                <li><a href="mailto:jeremy.wu@foxmail.com"><span class="fa fa-envelope-o"></span></a></li>
+              </ul>
+            </div>
+            <div class="card-inner-box">
+              <header class="header wow fadeInLeft" data-wow-duration="1.5s">
+                <ul class="main-menu">
+                  <li class="active home"><a class="logo" href="#home"><img src="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/logo.png" alt=""></a></li>
+                  <li><a href="#about"><i class="flaticon-social"></i>个人信息</a></li>
+                  <li><a href="#tools"><i class="flaticon-tools"></i>擅长技术</a></li>
+                  <li><a href="#resume"><i class="flaticon-curriculum"></i>工作经历</a></li>
+                  <li><a href="#services"><i class="flaticon-layers-1"></i>项目经验</a></li>
+                  <li><a href="#work"><i class="fa fa-github"></i>开源项目</a></li>
+                  <li><a href="#honor"><i class="iconfont icon-rongyu"></i>荣誉证书</a></li>
+                  <li><a href="#blog"><i class="flaticon-blog"></i>博客文章</a></li>
+                </ul>
+              </header>
+
+              <!-- card item -->
+              <div class="card-home card-item active" id="home" style="background-image:url(https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/1.jpg)">
+
+                <div class="card-inner wow fadeInUp" data-wow-duration="2s">
+                  <div class="image"><img src="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/user.jpeg" alt=""></div>
+                  <div class="author">
+                    <h3>吴增杰</h3>
+                    <div class="designation">
+                      您好，我是
+                      <div class="typing-title">
+                        <p>一名<strong> 全栈工程师</strong></p>
+                        <p>一名<strong> 技术追求者</strong></p>
+                        <p>一名<strong> 运动爱好者</strong></p>
+                        <p>一名<strong> 开源爱好者</strong></p>
+                      </div>
+                      <span class="typed-title"></span>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <p>
+                      主攻全栈开发，7年+项目管理、软件开发经验。
+                      半导体智能制造、自动化装备、智慧工厂、数字工厂方向解决方案。
+                      带领技术团队利用最新技术解决业务快速发展过程中的各种业务场景问题。
+                      主要项目包括 CIM、MES、WMS、EAP、2D Mark、BI、PDM、PLM、SPC、QMS、OA、SCM、CRM、B2B、EDI 等。
+                      主要技术栈包括 Delphi、C++、WinForm、WPF、NetFramework、NET
+                      Core、Python、PHP、Vue、HTML、CSS、JavaScript、TypeScript、RabbitMQ、Node、WebAPI、Oracle、MySQL、SqlServer、PostgreSQL、Redis、Memcached等。
+                      热衷开源，GitHub 活跃用户，良好的英语听说读写能力，坚持学习和技术分享。
+                    </p>
+                  </div>
+                  <div class="link-btn">
+                    <a href="https://www.cnblogs.com/jeremywucnblog" target="_blank"
+                      class="theme-btn btn-style-one">CnBlog</a>
+                    <a href="https://github.com/jeremywu917" target="_blank" class="theme-btn btn-style-two">GitHub</a>
+                  </div>
+                </div>
+
+              </div>
+              <!-- end item -->
+
+              <!-- card item -->
+              <div class="card-about card-item" id="about">
+                <div class="card-inner">
+                  <h4 class="title">个人信息</h4>
+                  <div class="info-list col-md-12">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <ul class="list-style-one">
+                          <li><strong>姓名:</strong> 吴增杰 Jeremy WU</li>
+                          <li><strong>微信:</strong> JeremyWu-IoT</li>
+                          <li><strong>地址:</strong> 江苏省无锡市</li>
+                          <li><strong>博客:</strong> <a target="_blank"
+                            href="https://blog.jeremywu.top/#/">Jeremy Blog</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-6">
+                        <ul class="list-style-one">
+                          <li><strong>邮箱:</strong> <a target="_blank"
+                              href="mailto:jeremy.wu@foxmail.com">jeremy.wu@foxmail.com</a></li>
+                          <li><strong>GitHub:</strong> <a target="_blank"
+                              href="https://github.com/jeremywu917">github.com/jeremywu917</a>
+                          </li>
+                          <li><strong>GitHub Org:</strong> <a target="_blank"
+                              href="https://github.com/chinaitorg">China-IT-Org</a></li>
+                          <li><strong>订阅号:</strong> <a target="_blank"
+                              href="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/fsmw_wechat_logo_gif.gif">全栈民工</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="education col-md-12">
+                    <div class="row">
+                      <h4 class="title">教育背景</h4>
+                      <div class="school">
+                        <a target="_blank" href="http://www.hbitu.cn/index.php"><img class="logo"
+                            src="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/school-logo.png" alt=""></a>
+                        <div>
+                          <strong>淮北师范大学信息学院 , 本科</strong> 电子信息工程
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+              <!-- card item -->
+              <div class="card-about card-item" id="tools">
+                <div class="card-inner">
+                  <h4 class="title">擅长技术</h4>
+                  <div class="col-md-12">
+                    <div></div>
+                    <div class="row">
+                      <!-- About Block -->
+                      <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                        <div class="inner-box">
+                          <div class="graph-outer">
+                            <input type="text" class="dial" data-fgColor="#9147ff" data-bgColor="#f5f5f5"
+                              data-width="90" data-height="90" data-linecap="normal" value="80">
+                            <div class="inner-text count-box"><span class="count-text" data-stop="80"
+                                data-speed="2000"></span>%</div>
+                          </div>
+                          <h3>前端</h3>
+                        </div>
+                      </div>
+                      <!-- About Block -->
+                      <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                        <div class="inner-box">
+                          <div class="graph-outer">
+                            <input type="text" class="dial" data-fgColor="#ff5e7e" data-bgColor="#f5f5f5"
+                              data-width="90" data-height="90" data-linecap="normal" value="80">
+                            <div class="inner-text count-box"><span class="count-text" data-stop="80"
+                                data-speed="2000"></span>%</div>
+                          </div>
+                          <h3>构建/工具</h3>
+                        </div>
+                      </div>
+
+                      <!-- About Block -->
+                      <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                        <div class="inner-box">
+                          <div class="graph-outer">
+                            <input type="text" class="dial" data-fgColor="#ffc713" data-bgColor="#f5f5f5"
+                              data-width="90" data-height="90" data-linecap="normal" value="90">
+                            <div class="inner-text count-box"><span class="count-text" data-stop="90"
+                                data-speed="2000"></span>%</div>
+                          </div>
+                          <h3>后端</h3>
+                        </div>
+                      </div>
+                      <!-- About Block -->
+                      <div class="skill-block col-md-3 col-sm-4 col-xs-6">
+                        <div class="inner-box">
+                          <div class="graph-outer">
+                            <input type="text" class="dial" data-fgColor="#51dbc3" data-bgColor="#f5f5f5"
+                              data-width="90" data-height="90" data-linecap="normal" value="80">
+                            <div class="inner-text count-box"><span class="count-text" data-stop="80"
+                                data-speed="2000"></span>%</div>
+                          </div>
+                          <h3>项目管理</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="skill-info">
+                        <h4 class="sub-title">前端:</h4>
+                        <div class="labels">
+                          <span class="label label-info">HTML</span>
+                          <span class="label label-info">CSS</span>
+                          <span class="label label-info">Scss</span>
+                          <span class="label label-info">Less</span>
+                          <span class="label label-info">JavaScript</span>
+                          <span class="label label-info">TypeScript</span>
+                          <span class="label label-info">UniApp</span>
+                          <span class="label label-info">ElementUI</span>
+                          <span class="label label-info">Vue</span>
+                          <span class="label label-info">WinForm</span>
+                          <span class="label label-info">MVC</span>
+                          <span class="label label-info">WPF</span>
+                          <span class="label label-info">Delphi</span>
+                          <span class="label label-info">Avalonia</span>
+                        </div>
+                        <h4 class="sub-title">构建/工具:</h4>
+                        <div class="labels">
+                          <span class="label label-info">Webpack</span>
+                          <span class="label label-info">Gulp</span>
+                          <span class="label label-info">Git</span>
+                          <span class="label label-info">PowerDesigner</span>
+                          <span class="label label-info">Plsqldev</span>
+                          <span class="label label-info">Navicat</span>
+                          <span class="label label-info">Postman</span>
+                          <span class="label label-info">XMind</span>
+                        </div>
+                        <h4 class="sub-title">服务端:</h4>
+                        <div class="labels">
+                          <span class="label label-info">NetCore</span>
+                          <span class="label label-info">NodeJS</span>
+                          <span class="label label-info">Python</span>
+                          <span class="label label-info">PHP</span>
+                          <span class="label label-info">WebService</span>
+                          <span class="label label-info">WCF</span>
+                          <span class="label label-info">WebApi</span>
+                          <span class="label label-info">RabbitMQ</span>
+                          <span class="label label-info">Oracle</span>
+                          <span class="label label-info">SqlServer</span>
+                          <span class="label label-info">PostgreSQL</span>
+                          <span class="label label-info">Redis</span>
+                          <span class="label label-info">Memcached</span>
+                          <span class="label label-info">Linux</span>
+                          <span class="label label-info">IIS</span>
+                          <span class="label label-info">Nginx</span>
+                        </div>
+                        <h4 class="sub-title">项目管理:</h4>
+                        <div class="labels">
+                          <span class="label label-info">MSProject</span>
+                          <span class="label label-info">Teambition</span>
+                          <span class="label label-info">OpenProject</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+              <!-- end item -->
+
+              <!-- card item -->
+              <div class="card-resume card-item" id="resume">
+                <div class="card-inner">
+                  <h4 class="title">工作经历</h4>
+                  <!--Column-->
+                  <div class="timeline-column col-md-12">
+                    <div class="row clearfix">
+                      <div class="inner">
+                        <!--Timeline Block-->
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>软件研发经理 / 信息管理部经理</h4>
+                            <div class="date"><span>2020.05-至今</span> / <a href="https://github.com/wxiie"
+                                target="_blank">无锡惟勤智能装备有限公司</a>
+                            </div>
+                            <div class="text">
+                              主攻全栈开发，负责公司信息化建设的技术框架搭建、项目开发、环境部署，以及项目发布。
+                              <br/>
+                              对接公司设备上位机开发团队，为终端客户提供智慧车间、智慧工厂、数字工厂解决方案。
+                              <br/>
+                              对接市场部售前团队，提供竞标方案。
+                              <br/>
+                              负责集团网络安全建设，为子公司提供技术支持。
+                              <br/>
+                              项目包括公司信息系统的PC、移动端网站、管理后台网站，微信开发，ERP、PLM、PDM、CIM、WMS、EAP、AutoReport、AutoPrint、BI、ASMS等的全栈开发。
+                              <br/>
+                              带领CIM软件团队高效完成业务模块开发，制定CIM团队开发的发展路线。
+                              <br/>
+                              参与项目全流程讨论，提出建设性意见，让项目开发更加合理、科学化，提高整个团队的交付效率和质量。
+                              <br/>
+                              <br/>
+                              根据公司整体战略发展，制定 IT 战略规划、团队建设和业务计划，推动公司信息化建设。
+                              <br/>
+                              主持分析信息化需求，制定信息化建设行动计划并向公司提供专业的咨询、建议和规划方案。
+                              <br/>
+                              负责公司整体信息安全，编制和完善公司数据标准及保障措施。
+                              <br/>
+                              负责信息管理部的日常工作和部门建设确保公司 IT 系统安全、高效、文档运行。
+                              <br/>
+                              协调部门内外部信息的及时沟通，为职能部门提供高效的 IT 技术服务支持。
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>软件开发工程师</h4>
+                            <div class="date"><span>2014.08-2020.05</span> / <a target="_blank"
+                                href="https://www.jcetglobal.com/">长电科技（宿迁）有限公司</a>
+                            </div>
+                            <div class="text">
+                              主攻全栈开发，负责全厂信息系统的基础技术框架搭建、项目开发、环境部署，以及项目发布。
+                              <br/>
+                              项目包括公司 CIM、MES、ERP、EAP、2D Mark、B2B、AutoRecipe、AutoPrint、AutoReport、SPMS、EDI 系统的全栈开发。
+                              <br/>
+                              带领软件团队高效完成业务模块开发，制定团队开发的流程、实施方案以及技术文档的撰写。
+                              <br/>
+                              参与项目全流程讨论，提出建设性意见，让项目开发更加合理、科学化，提高整个团队的交付效率和质量。
+                              <br/>
+                              历时四年建成全公司的智慧化工厂，获得 "宿迁市两化融合示范企业" 和 "江苏省两化深度融合创新试点企业" 称号。
+                            </div>
+                          </div>
+                        </div>
+                        <!--Timeline Block-->
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>嵌入式开发工程师</h4>
+                            <div class="date"><span>2014.04-2014.06(大四实习)</span> / <a target="_blank"
+                                href="https://yh57961119.dyq.cn/">上海耀亨电源设备有限公司</a>
+                            </div>
+                            <div class="text">
+                              嵌入式开发（ARM、FPGA）。优化现有产品程序，协助研发经理开发新产品以及开发流程梳理和开发技术文档撰写等。
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+              <!-- card item -->
+              <div class="card-resume card-item" id="services">
+                <div class="card-inner">
+                  <h4 class="title">项目经验</h4>
+                  <!--Column-->
+                  <div class="timeline-column  col-md-12">
+                    <div class="row clearfix">
+                      <div class="inner">
+                        <!--Timeline Block-->
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>企业数据大屏驾驶舱</h4>
+                            <div class="date"> 项目描述：实时数据大屏展示</div>
+                            <div class="text">
+                              <div>技术栈: HTML+CSS+Less+TypeScript+JavaScript+Flexible+ECharts+WebApi+Swagger</div>
+                              <ul>
+                                <li>前后端分离项目，后端采用 NetCore WebApi，前端采用ECharts组件，快速构建项目</li>
+                                <li>实现了 WIP 模块、设备模块、原料模块、仓库模块和预警模块等主要功能</li>
+                                <li>实现了数据的实时刷新与展示，醒目的展示各类预警信息以及建议条目</li>
+                                <li>优化资源配置、降本提效，直观的展示各个部门的实际作业状态，提升企业形象和品牌价值</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>售后服务管理平台</h4>
+                            <div class="date"> 项目描述：售后服务部门移动化办公平台</div>
+                            <div class="text">
+                              <div>技术栈: Uni-App+Uni-UI+WebApi+Swagger+HTML+CSS+Scss+JavaScript+TypeScript+Vue+Nginix+RabbitMQ+PostgreSQL
+                              </div>
+                              <ul>
+                                <li>前后端分离项目，后端采用 NetCore WebApi，前端采用
+                                  Uni-App+Uni-UI多环境配置技术方案，克服了原生开发的不方便，一次开发多端部署，极速研发、研发成本大大降低</li>
+                                <li>实现了登录授权、设备日志、巡检、装机、维修、培训和个人中心等主要功能</li>
+                                <li>编程高度模块化、组件化、低耦合、高可用，优化登录逻辑，优化了图片请求慢，时效性不高的接口进行数据缓存等</li>
+                                <li>优化资源配置、降本提效，提高售后服务人员的工作效率，提升企业自动化水平</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>EAP 统一管理平台</h4>
+                            <div class="date"> 项目描述：标准化<a target="_blank"
+                                href="https://github.com/wxiie">惟勤智能</a>智能装备数据交互方式，便于与第三方设备进行数据交互</div>
+                            <div class="text">
+                              <div>技术栈: WPF+<a target="_blank"
+                                  href="https://github.com/HandyOrg/HandyControl">HandyControl</a>+WebApi+Swagger+RabbitMQ+PostgreSQL+NLog+SECS/GEM
+                              </div>
+                              <ul>
+                                <li>前后端分离项目，前端采用 WPF 后端采用 NetCore WebApi</li>
+                                <li>提供标准 RESTful Api 接口，支持各类信息系统调用，实现标签的远程打印功能</li>
+                                <li>实现了登录服务端配置、客户端通信授权配置、通信日志查看等主要功能。</li>
+                                <li>配套上位机程序使用，提升企业设备的市场竞争力、品牌形象和自动化水平</li>
+                                <li>带领软件团队高效完成业务模块开发，敏捷优化与重构，优化用户体验及性能</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>标签打印平台</h4>
+                            <div class="date"> 项目描述：对接各类信息系统，实现各类标签模板的自动抓取、填充与远程打印功能</div>
+                            <div class="text">
+                              <div>技术栈: WPF+<a target="_blank"
+                                  href="https://github.com/HandyOrg/HandyControl">HandyControl</a>+WebApi+Swagger+<a
+                                  target="_blank" href="https://www.bartendersoftware.cn/">BarTender</a>+<a
+                                  target="_blank" href="https://www.codesoftchina.com/">CodeSoft</a>+RabbitMQ+PostgreSQL+NLog
+                              </div>
+                              <ul>
+                                <li>前后端分离项目，前端采用 WPF 后端采用 NetCore WebApi</li>
+                                <li>提供标准 RESTful Api 接口，支持各类信息系统调用，实现标签的远程打印功能</li>
+                                <li>实现了<a target="_blank" href="https://www.bartendersoftware.cn/">BarTender</a>和<a
+                                    target="_blank" href="https://www.codesoftchina.com/">CodeSoft</a>标签模板的支持</li>
+                                <li>实现了支持多类型、40+字段的支持</li>
+                                <li>实现了多种通用标签打印机驱动(斑马、惠普等)的支持</li>
+                                <li>优化资源配置、降本提效，提升企业自动化水平</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>报表平台</h4>
+                            <div class="date"> 项目描述：报表的整合、查看，发送与定时计划任务配置</div>
+                            <div class="text">
+                              <div>技术栈: WPF+Prism+Blend+WebApi+Swagger+RabbitMQ+SqlServer+<a target="_blank"
+                                  href="https://github.com/HandyOrg/HandyControl">HandyControl</a>+NLog</div>
+                              <ul>
+                                <li>前后端分离项目，前端采用 WPF 后端采用 NetCore WebApi</li>
+                                <li>对接各类信息系统，提取数据后根据用户需要，整合成各种格式的数据报表</li>
+                                <li>实现了高效快速的数据配方式，支持多种数据库接口、支持 T-SQL 接口语句</li>
+                                <li>实现了用户自定义计划任务，定时定量的实现数据报表的导出与发送</li>
+                                <li>优化资源配置、降本提效、提升企业自动化水平</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>CIM/MES 系统</h4>
+                            <div class="date"> 项目描述：PCB 行业生产制造执行系统</div>
+                            <div class="text">
+                              <div>技术栈: WPF+Prism+Blend+WebApi+Swagger+RabbitMQ+SqlServer+<a target="_blank"
+                                  href="https://github.com/HandyOrg/HandyControl">HandyControl</a>+NLog</div>
+                              <ul>
+                                <li>前后端分离项目，前端采用 WPF 后端采用 NetCore WebApi</li>
+                                <li>带领软件团队研发满足 PCB 制造行业需求的智能制造执行系统</li>
+                                <li>需求分析、技术选型、系统设计、代码开发、功能测试、文档撰写、系统实施、用户培训</li>
+                                <li>主要功能模块有：公共管理、设备管理、工程设计管理、制造管理、生产排程、品质管理、工艺路线管理、报表管理、系统设置等</li>
+                                <li>优化资源配置、将本提效、提升企业自动化水平</li>
+                                <li>"两化融合"的转折点，为后续 "智慧工厂"、"数字工程" 自动化建设奠定基础</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>环保监控管理系统</h4>
+                            <div class="date"> 项目描述：对接 PLC 中控实现数据的提取、整合并以图表的形式展示，同时实现各类预警与自定义事件的自动控制</div>
+                            <div class="text">
+                              <div>技术栈: WPF+Prism+Blend+WebApi+Swagger+RabbitMQ+SqlServer+<a
+                                  href="https://github.com/MahApps/MahApps.Metro" target="_blank">MahApps.Metro</a>+OPC
+                                UA+NLog</div>
+                              <ul>
+                                <li>项目简介: <a target="_blank"
+                                    href="https://www.cnblogs.com/jeremywucnblog/p/13157019.html#4684061">EPMS</a></li>
+                                <li>前后端分离项目，前端采用 WPF 后端采用 NetCore WebApi</li>
+                                <li>对接西门子、三菱、欧姆龙 PLC 模块，对数据进行实时读取</li>
+                                <li>实现了数据的整合与图表的展示</li>
+                                <li>实现了各类预警通知与自定义事件的自动控制</li>
+                                <li>优化资源配置，提效降本，提升企业自动化程度</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>BI 数据决策系统</h4>
+                            <div class="date"> 项目描述：基于 MES/ERP 和 SPMS 系统数据，采用大数据分析 EDC
+                              等技术，全流程数据驱动解决方案，实现多维度、精细化的数据钻取，实现深度机器和系统学习，精准投放相关决策指令到相关管理层。并对生产和设备Logs实时分析，个性化生成生产调度、设备维护、SPC
+                              等决策指令给到相关决策人员，达到数据
+                              对于生产以及设备的实时驱动管理，提升管理效率和设备UPH，同时提高产品良率</div>
+                            <div class="text">
+                              <div> 技术栈: C#+Python+NLog+WebApi+RabbitMQ+Oracle+Memcached+Echarts+Html+CSS+JavaScript</div>
+                              <ul>
+                                <li>前后端分离，WebApi + MVC 构建开发框架，快速开发标准版后台</li>
+                                <li>逐步取代各类需要人工处理数据的工作，减少大量人工成本的同时提高作业效率和准确率，科学化、系统化、自动化的数据决策系统将进一步加快 "智慧工厂" 的建设脚步</li>
+                                <li>提效降本，全流程数据驱动决策</li>
+                                <li>提升客户满意度和企业知名度</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>2D Mark系统</h4>
+                            <div class="date"> 项目描述：利用二维码技术为每一条基板建立唯一身份标识,实现产品
+                              生命周期的全程可视化追踪，在生产过程数据的收集和跟踪中,能够完全做到自动化和零人为失误
+                          </div>
+                            <div class="text">
+                              <div> 技术栈: WPF+NLog+WebApi+RabbitMQ+Oracle+SECS/GEM</div>
+                              <ul>
+                                <li>前后端分离，WebApi + WPF 构建开发框架，快速开发标准版前后台管理系统</li>
+                                <li>自动完成 Mapping 文件格式转换，并且提供手工编辑功能</li>
+                                <li>自动完成 Mapping 数据上传下载，提供Strip Mapping和Wafer Mapping对应关系查询功能</li>
+                                <li>提升客户满意度和企业知名度</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>Auto Recipe</h4>
+                            <div class="date"> 项目描述：设备配方文件自动上传、下载、更新和参数的自动对比，提升机台UPH。
+                              同时实现参数历史数据的自动分析、校准和上传，并自动提示提示最优配方的选择
+                          </div>
+                            <div class="text">
+                              <div> 技术栈: WPF+NLog+WebApi+RabbitMQ+Redis+Oracle+SECS/GEM</div>
+                              <ul>
+                                <li>前后端分离，WebApi + WPF 构建开发框架，快速开发标准版前后台管理系统</li>
+                                <li>实现所有机台参数的自动上传下载，禁止手工操作，满足客户需求，提升客户满意度</li>
+                                <li>实现机台参数的自动对比检查，保证机台调用到正确的参数，杜绝因参数异常导致的产品异常</li>
+                                <li>实现全线的机台参数共享和自动上传、下载、更新和推送，减少人工成本，提升作业效率</li>
+                                <li>满足“智慧工厂”建设需求，满足“两化融合”建设方针，提升企业知名度和品牌价值</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>SECS/GEM "智慧工厂" 建设</h4>
+                            <div class="date">项目描述：2017年2月应公司发展需要，担任自动化部工程师兼经理一职，负责公司的 "智慧工厂" 建设。 同年,开发了 SPMS
+                              系统。该系统通过 SECS/GEM 协议实现了对生产设备的实时信息采集、控制，并对接 MES/ERP 等系统，完成了对生产制造的实时控制，完成各类物料的有效卡控，优化了 OP
+                              的作业模式，实现设备的自动登修、保养、停机、复机等，极大的提升了设备的产能</div>
+                            <div class="text">
+                              <div>技术栈: C#+NLog+WebService+Delphi+RabbitMQ+Redis+Oracle+Memcached+SECS/GEM</div>
+                              <ul>
+                                <li>带领软件团队研发满足工厂需要的 SPMS 系统实现设备联机联网</li>
+                                <li>需求分析、技术选型、系统设计、代码开发、功能测试、文档撰写、系统实施、用户培训</li>
+                                <li>核心功能模块包括：2D Mark 、RMS 、ALMS 、EDC</li>
+                                <li>加快了<a target="_blank" href="https://www.jcetglobal.com/">长电科技（宿迁）有限公司</a>智慧工厂的建设脚步
+                                </li>
+                                <li>获得 "宿迁市两化融合示范企业" 和 "江苏省两化深度融合创新试点企业" 称号</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>B2B 系统</h4>
+                            <div class="date">项目描述：2016年3月担任 B2B 部软件开发工程师兼经理一职，负责对接欧美客户客户群，完成满足双方需求的 B2B 系统</div>
+                            <div class="text">
+                              <div>技术栈: C#+Delphi+XML+Oracle+SFTP</div>
+                              <ul>
+                                <li>带领 B2B 团队研发满足工厂与欧美客户群的 B2B 系统</li>
+                                <li>需求分析、技术选型、系统设计、代码开发、功能测试、文档撰写、系统实施、用户培训</li>
+                                <li>主要系统包括：<a target="_blank" href="https://www.ti.com.cn/">TI</a> 的 TKT3 System、<a
+                                    target="_blank" href="https://www.maxlinear.com/">MaxLinear</a> 的 MicroAX System、<a
+                                    target="_blank" href="https://www.infineon.com/">Infineon</a> 的 IFX Trans System、<a
+                                    target="_blank" href="https://www.st.com/content/st_com/en.html">ST</a> 的 EDI System
+                                  和 <a target="_blank" href="https://www.hisilicon.com/cn/">Hisilicon</a> 的 MTK System 等
+                                </li>
+                                <li>优化资源配置，提效降本。满足欧美客户的投料上量需求，获得客户和高层的一致好评</li>
+                                <li>提升企业的知名度和品牌价值</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4> MES/EPR 系统 </h4>
+                            <div class="date">项目描述：2014年8月加入<a target="_blank"
+                                href="https://www.jcetglobal.com/">长电科技（宿迁）有限公司</a>，担任软件开发部开发工程师一职，负责公司 MES/ERP
+                              系统建设，设计了满足工厂制造、生产和销售等业务需求的各类ERP系统。在职期间，组织团队采用敏捷开发模式进行系统开发和测试，并完成系统各个功能模块文档的撰写。
+                              2015年3月生产制造执行系统（MES）正式上线，稳健运行 </div>
+                            <div class="text">
+                              <div>技术栈: C#+Delphi+Factoryworks+RabbitMQ+Oracle+WebService</div>
+                              <ul>
+                                <li>带领软件团队研发满足半导体封测工厂需求的智能制造执行系统</li>
+                                <li>需求分析、技术选型、系统设计、代码开发、功能测试、文档撰写、系统实施、用户培训</li>
+                                <li>主要功能模块有：物料库房管理、工程管理、制造管理、生产排程、WIP管理、设备管理、报表管理、异常管理、成品库管理、系统设置等</li>
+                                <li>优化资源配置、降本提效</li>
+                                <li>"两化融合" 的转折点。MES/ERP 系统为后续 "智慧工厂" 自动化建设奠定基础</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+              <!-- card item -->
+              <div class="card-projects card-item" id="work">
+                <div class="card-inner">
+                  <h4 class="title">开源项目</h4>
+                  <div class="row">
+                    <div class="services-block col-md-12">
+                      <div class="inner-box">
+                        <div class="icon-box"><span class="icon flaticon-phone"></span></div>
+                        <h4><a href="https://github.com/JeremyWu917/jeremy-ui" target="_blank">jeremy-ui <img
+                              src="https://img.shields.io/github/stars/JeremyWu917/jeremy-ui.svg?style=social" /></a>
+                        </h4>
+                        <div class="text">基于 Vue3 的开源组件库
+                        </div>
+                      </div>
+                    </div>
+                    <div class="services-block col-md-12">
+                      <div class="inner-box">
+                        <div class="icon-box"><span class="icon flaticon-pen-tool"></span></div>
+                        <h4><a href="https://github.com/JeremyWu917/Jeremy.OA" target="_blank">Jeremy.OA <img
+                              src="https://img.shields.io/github/stars/JeremyWu917/Jeremy.OA.svg?style=social" /></a>
+                        </h4>
+                        <div class="text">企业办公自动化软件 OA
+                        </div>
+                      </div>
+                    </div>
+                    <div class="services-block col-md-12">
+                      <div class="inner-box">
+                        <div class="icon-box"><span class="icon flaticon-folder"></span></div>
+                        <h4><a href="https://github.com/JeremyWu917/CommonManagementSystem" target="_blank">Common
+                            Management System <img
+                              src="https://img.shields.io/github/stars/JeremyWu917/CommonManagementSystem.svg?style=social" /></a>
+                        </h4>
+                        <div class="text">一个通用的权限管理系统 CMS</div>
+                      </div>
+                    </div>
+                    <div class="services-block col-md-12">
+                      <div class="inner-box">
+                        <div class="icon-box"><span class="icon flaticon-computer"></span></div>
+                        <h4><a href="https://github.com/JeremyWu917/AsyncSample" target="_blank">AsyncSample <img
+                              src="https://img.shields.io/github/stars/JeremyWu917/AsyncSample.svg?style=social" /></a>
+                        </h4>
+                        <div class="text">几个经典的await、async案例</div>
+                      </div>
+                    </div>
+
+                    <div class="services-block col-md-12">
+                      <div class="inner-box">
+                        <div class="icon-box"><span class="icon flaticon-layers-1"></span></div>
+                        <h4><a href="https://github.com/JeremyWu917/nodejs-sample" target="_blank">nodejs-sample <img
+                              src="https://img.shields.io/github/stars/JeremyWu917/nodejs-sample.svg?style=social" /></a>
+                        </h4>
+                        <div class="text">NodeJS 最佳实践</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <!-- end item -->
+              <!-- card item -->
+              <div class="card-honor card-item" id="honor">
+                <div class="card-inner">
+                  <h4 class="title">证书</h4>
+                  <div class="col-md-12">
+                    <ul class="list-style-two">
+                      <li><span class="iconfont icon-rongyu"></span>大学英语四级 <span class="level">通过</span></li>
+                      <li><span class="iconfont icon-rongyu"></span>全国计算机二级 C 语言 <span class="level">通过</span></li>
+                      <li><span class="iconfont icon-rongyu"></span>江苏省 "英才计划" 优秀学员 <span class="level">通过</span></li>
+                    </ul>
+                  </div>
+                  <h4 class="title">荣誉</h4>
+                  <div class="col-md-12">
+                    <ul class="list-style-two">
+                      <li><span class="iconfont icon-rongyu"></span>国家励志奖学金 <span class="level">国家级</span></li>
+                      <li><span class="iconfont icon-rongyu"></span>全国大学生电子设计大赛省二等奖 <span class="level">省级</span></li>
+                      <li><span class="iconfont icon-rongyu"></span>一等奖学金 <span class="level">校级</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+              <!-- card item -->
+              <div class="card-blog card-item" id="blog">
+                <div class="card-inner">
+                  <h4 class="title">优秀博文</h4>
+                  <div class="news-block">
+                    <div class="inner-box">
+                      <div class="image"><img src="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/blog-1.png" alt="">
+                        <div class="overlay"><a target="_blank" class="link-btn"
+                            href="https://www.cnblogs.com/jeremywucnblog/p/12022001.html"><i class="fa fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="lower-content">
+                        <h4><a target="blank"
+                            href="https://www.cnblogs.com/jeremywucnblog/p/12022001.html">通用C/S管理系统开发</a>
+                        </h4>
+                        <div class="tags">CMS开发</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="news-block">
+                    <div class="inner-box">
+                      <div class="image"><img src="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/blog-2.png" alt="">
+                        <div class="overlay"><a target="blank" class="link-btn"
+                            href="https://www.cnblogs.com/jeremywucnblog/p/13157019.html"><i class="fa fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="lower-content">
+                        <h4><a target="blank" href="https://www.cnblogs.com/jeremywucnblog/p/13157019.html">WPF OPC
+                            项目开发</a></h4>
+                        <div class="tags">WPF开发</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="news-block">
+                    <div class="inner-box">
+                      <div class="image"><img src="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/blog-3.png" alt="">
+                        <div class="overlay"><a target="blank" class="link-btn"
+                            href="https://www.cnblogs.com/jeremywucnblog/p/13307672.html"><i class="fa fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="lower-content">
+                        <h4><a target="blank" href="https://www.cnblogs.com/jeremywucnblog/p/13307672.html">Vue CLI
+                            方式开发实践</a></h4>
+                        <div class="tags">Vue2开发</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="news-block">
+                    <div class="inner-box">
+                      <div class="image"><img src="https://gitee.com/jeremywuiot/img-res-all/raw/master/src/iie_shop/jeremy_ui_button.gif" alt="">
+                        <div class="overlay"><a target="blank" class="link-btn"
+                            href="https://www.cnblogs.com/jeremywucnblog/p/15674656.html"><i class="fa fa-link"></i></a>
+                        </div>
+                      </div>
+                      <div class="lower-content">
+                        <h4><a target="blank" href="https://www.cnblogs.com/jeremywucnblog/p/15674656.html">基于Vue3的前端UI组件库开发</a></h4>
+                        <div class="tags">Vue3开发</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!--End pagewrapper-->
+
+
+  <script src="js/jquery.js"></script>
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/owl.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/appear.js"></script>
+  <script src="js/jquery.fancybox.js"></script>
+  <script src="js/element-in-view.js"></script>
+  <script src="js/knob.js"></script>
+  <script src="js/validate.js"></script>
+  <script src="js/mousemoveparallax.js"></script>
+  <script src="js/pagenav.js"></script>
+  <script src="js/jquery-type.js"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/particle-alone.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
