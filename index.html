@@ -134,7 +134,7 @@
                     <p>
                       主攻全栈开发，7年+项目管理、软件开发经验。
                       半导体智能制造、自动化装备、智慧工厂、数字工厂方向解决方案。
-                      带领技术团队利用最新技术解决业务快速发展过程中的各种业务场景问题。
+                      带领技术团队利用最新技术解决业务快速发展过程中的各种业务场景问题，以及光刻设备上位机SECS/GEM通信特性开发类问题。
                       主要项目包括 CIM、MES、WMS、EAP、2D Mark、BI、PDM、PLM、SPC、QMS、OA、SCM、CRM、B2B、EDI 等。
                       主要技术栈包括 Delphi、C++、WinForm、WPF、NetFramework、NET
                       Core、Python、PHP、Vue、HTML、CSS、JavaScript、TypeScript、RabbitMQ、Node、WebAPI、Oracle、MySQL、SqlServer、PostgreSQL、Redis、Memcached等。
@@ -336,7 +336,7 @@
                             <div class="text">
                               主攻全栈开发，负责公司信息化建设的技术框架搭建、项目开发、环境部署，以及项目发布。
                               <br/>
-                              对接公司设备上位机开发团队，为终端客户提供智慧车间、智慧工厂、数字工厂解决方案。
+                              负责公司设备上位机开发或对接设备上位机开发团队，为终端客户提供智慧车间、智慧工厂、数字工厂解决方案。
                               <br/>
                               对接市场部售前团队，提供竞标方案。
                               <br/>
@@ -408,6 +408,55 @@
                     <div class="row clearfix">
                       <div class="inner">
                         <!--Timeline Block-->
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>光刻设备通信特性提升项目</h4>
+                            <div class="date"> 项目描述：基于SEMI标准的自动化设备的SECS/GEM通信协议开发</div>
+                            <div class="text">
+                              <div>技术栈: WPF+MVVM+HandyControl+Prism+AutoMapper+TCP/IP+EFCore+SQLite+C/C++</div>
+                              <ul>
+                                <li>基于SEMI标准开发上位机统一对外通信模块</li>
+                                <li>将光刻光刻设备核心指标参数归类为17条GEM模型及GEM子信息，逐步抽象成光刻设备的标准化GEM(E30)模型</li>
+                                <li>再在子信息的基础上以不同的Stream Number搭配不同的Function Number来表示不同的信息分类</li>
+                                <li>自定义消息编码格式及光刻设备的每个SnFm对应的消息详细信息最终封装成SESC Ⅱ(E5)</li>
+                                <li>底层的电子模块除集成运动板卡均自主封装HSMS(E37)通信协议，部分采用SECS Ⅰ(E4)</li>
+                                <li>完善了设备上位机的核心功能，实现了基于SECS/GEM协议的通信特性，提高了设备竞争力与品牌形象</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>产品生命周期管理系统</h4>
+                            <div class="date"> 项目描述：研发产品全生命周期的数据管理</div>
+                            <div class="text">
+                              <div>技术栈: HTML+CSS+Less+TypeScript+NetCore WebApi+ECharts+ElementUI+Solidworks/AutoCAD+MSProject</div>
+                              <ul>
+                                <li>前后端分离项目，后端采用 NetCore WebApi，前端采用ElementUI组件，快速构建项目</li>
+                                <li>实现了 物料管理 模块、BOM管理模块、ECR/ECN变更管理模块、项目管理模块等主要功能</li>
+                                <li>实现了与Microsoft Project的对接，对项目实现线下与线上的管理，根据项目负责人需要定制化开发了不同维度的项目跟踪报表</li>
+                                <li>实现了与Solidworks/AutoCAD的对接，对工程师的设计进行实时跟踪，按照规则自动触发变更评审，实现BOM的自动升版及变更履历的实时记录</li>
+                                <li>优化资源配置、降本提效，实现研发设计的全生命周期的数据追溯，提高设计人员的设计准确性与工作效率</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline-block">
+                          <div class="inner-box">
+                            <h4>品质管理系统</h4>
+                            <div class="date"> 项目描述：品质追溯与异常反馈，定制化报表展示</div>
+                            <div class="text">
+                              <div>技术栈: HTML+CSS+Less+TypeScript+Flexible+ECharts+NetCore WebApi+ElementUI</div>
+                              <ul>
+                                <li>前后端分离项目，后端采用 NetCore WebApi，前端采用ElementUI+ECharts组件，快速构建项目</li>
+                                <li>实现了 来料检验 模块、制造异常反馈模块、客诉管理模块、电子巡检异常模块和数据大屏展示模块等主要功能</li>
+                                <li>实现了各类异常的实时追溯与闭环管理</li>
+                                <li>实现了异常数据的实时刷新与展示，醒目的展示各类异常处理状态、进度等信息</li>
+                                <li>优化资源配置、降本提效，实现各类数据的无纸化电子办公管理</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
                         <div class="timeline-block">
                           <div class="inner-box">
                             <h4>企业数据大屏驾驶舱</h4>
